@@ -4,7 +4,7 @@ Purpose of grouping all the user's contacts. Project developed in November 2022.
 
 🔗 [Click here to access](https://renato-albuquerque.github.io/rma-contacts/index.html)
 
-![screenshot](images/screenshot.png)
+![screenshot](images/screenshot2.png)
 
 ## Technologies
 
