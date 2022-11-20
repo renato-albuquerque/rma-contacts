@@ -1,0 +1,23 @@
+
+Paleta de cores RMA
+
+AZUL
+#00294F, background
+#57AEFF
+#3C9EFA
+
+MARROM/BEGE
+#AD6E07, escuro, li > a
+#FAB23C, claro, h1, a:hover do footer 
+
+#F2EAE4, h2, p, cor da caixa, projeto ballerini
+
+--X--
+
+AZUL FC PORTO
+
+azul marinho
+#00294F
+
+azul claro
+#2057B8
