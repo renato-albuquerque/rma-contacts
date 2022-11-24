@@ -46,7 +46,7 @@ a {
     padding: 15px;
     display: block;
     border-radius: 5px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 a:hover {
