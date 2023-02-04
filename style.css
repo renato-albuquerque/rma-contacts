@@ -11,7 +11,7 @@
 }
 
 body {
-    background: linear-gradient(180deg, #00294F, #004381);   /* background-color: #00294F; */
+    background-color: #00294F;   /* background-color: #00294F; */
     color: #FAB23C;
     font-family: 'Roboto', sans-serif;
 }
@@ -46,8 +46,8 @@ li {
 }
 
 a {
-    background: linear-gradient(45deg, lightblue, blue, black);   /* background-color:#F2EAE4; */
-    color:#F2EAE4;     /* color: #AD6E07; */ 
+    background-color:#F2EAE4;   /* background-color:#F2EAE4; */
+    color: #AD6E07;     /* color: #AD6E07; */ 
     padding: 1.5rem;
     display: block;
     border-radius: 0.5rem;
