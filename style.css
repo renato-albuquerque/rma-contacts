@@ -112,3 +112,15 @@ button {
     border: none;
     cursor: pointer;
 }
+
+/* .activeDark {
+    background: var(--h1-color);
+    padding: 0.50rem;
+    border-radius: 50%;
+}
+
+.activeLight {
+    background: var(--a-color);
+    padding: 0.50rem;
+    border-radius: 50%;
+} */
