@@ -9,13 +9,13 @@ const html = document.querySelector('html')
 
 buttonLightMode.addEventListener('click', function() {
     html.classList.add('lightMode')
-    buttonLightMode.classList.add('iconTurnsBlack')
-    buttonDarkMode.classList.add('iconTurnsBlack')
+    buttonLightMode.classList.add('iconTurnsColor')
+    buttonDarkMode.classList.add('iconTurnsColor')
 })
 
 buttonDarkMode.addEventListener('click', function() {
     html.classList.remove('lightMode')
-    buttonLightMode.classList.remove('iconTurnsBlack')
-    buttonDarkMode.classList.remove('iconTurnsBlack')
+    buttonLightMode.classList.remove('iconTurnsColor')
+    buttonDarkMode.classList.remove('iconTurnsColor')
 })
   

@@ -24,8 +24,8 @@
     --a-color: #F2EAE4;
 }
 
-button.iconTurnsBlack svg path {            
-    fill: #121218;
+button.iconTurnsColor svg path {            
+    fill: #00294F;
 }
 
 body {
