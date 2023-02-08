@@ -18,4 +18,3 @@ buttonDarkMode.addEventListener('click', function() {
     buttonLightMode.classList.remove('iconTurnsColor')
     buttonDarkMode.classList.remove('iconTurnsColor')
 })
-  
