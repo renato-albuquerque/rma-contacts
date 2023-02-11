@@ -33,6 +33,16 @@ body {
     font-family: 'Roboto', sans-serif; 
 }
 
+.container {
+    width: 32.0rem;
+    text-align: center;
+    margin: 3.0rem auto;
+    /* margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
 img {
     border-radius: 50%;
 }
@@ -91,21 +101,6 @@ footer {
     margin-top: 3.0rem;
 }
 
-.container {
-    width: 32.0rem;
-    text-align: center;
-    margin: 3.0rem auto;
-    /* margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto; */
-}
-
-.darkLightMode {
-    display: flex;
-    gap: 1rem;
-}
-
 button {
     background-color: transparent;
     border: none;
@@ -115,9 +110,16 @@ button {
 .topIcons {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.darkLightMode {
+    display: flex;
+    gap: 1.5rem;
 }
 
 .flags {
     display: flex;
-    gap: 1rem;
+    gap: 1.2rem;
 }

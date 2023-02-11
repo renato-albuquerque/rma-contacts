@@ -21,3 +21,17 @@ buttonDarkMode.addEventListener('click', function() {
     buttonDarkMode.classList.remove('iconTurnsColor')
     buttonShare.classList.remove('iconTurnsColor')
 })
+
+// FUNCTION
+
+function share(){
+	if (navigator.share !== undefined) {
+		navigator.share({
+			title: 'Digital Business Card - Renato Albuquerque',
+			text: 'Front-End Web Developer',
+			url: 'https://rma-contacts.vercel.app/'
+		})
+		.then(() => console.log('Successful share'))
+		.catch((error) => console.log('Error sharing', error));
+	}
+}
