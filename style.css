@@ -87,6 +87,11 @@ a:hover {
     background-color: #999088;
 }
 
+a span {
+    font-size: 1.4rem;
+    font-style: italic;
+}
+
 .developed-by {
     color: var(--h2-p-color);
     font-size: 1.2rem;
