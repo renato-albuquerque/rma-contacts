@@ -84,7 +84,7 @@ a {
 }
 
 a:hover {
-    background-color: #999088;
+    filter: brightness(80%);
 }
 
 a span {
