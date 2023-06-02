@@ -31,10 +31,12 @@ button.iconTurnsColor svg path {
 body {
     background-color: var(--bg-color);   /* background-color: #00294F; */
     font-family: 'Roboto', sans-serif; 
+    width: 32rem;
+    margin: 0 auto;
 }
 
 .container {
-    width: 32.0rem;
+    width: 26rem;
     text-align: center;
     margin: 3.0rem auto;
     /* margin-top: 30px;
