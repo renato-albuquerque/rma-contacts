@@ -1,3 +1,5 @@
+/* reset css */
+
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +7,8 @@
     text-decoration: none;
     list-style: none;
 }
+
+/* ----- */
 
 :root {
     font-size: 62.5%;
@@ -36,7 +40,7 @@ body {
 }
 
 .container {
-    width: 26rem;
+    width: 28rem;
     text-align: center;
     margin: 3.0rem auto;
     /* margin-top: 30px;
@@ -44,6 +48,33 @@ body {
     margin-left: auto;
     margin-right: auto; */
 }
+
+/* top icons */
+
+.topIcons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.darkLightMode {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.flags {
+    display: flex;
+    gap: 1.2rem;
+}
+
+button {    /* for div flags. */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* header */
 
 img {
     border-radius: 50%;
@@ -67,6 +98,8 @@ p {
     font-size: 1.6rem;
 }
 
+/* main */
+
 ul {
     margin-top: 3.0rem;  
 }
@@ -83,6 +116,8 @@ a {
     border-radius: 0.5rem;
     font-weight: bolder;
     font-size: 1.8rem;
+
+    position: relative;
 }
 
 a:hover {
@@ -93,6 +128,14 @@ a span {
     font-size: 1.4rem;
     font-style: italic;
 }
+
+.fa-linkedin-in, .fa-github, .fa-envelope, .fa-whatsapp, .fa-telegram, .fa-discord, .fa-instagram {
+    position: absolute;
+    left: 2rem;
+    font-size: 2rem;
+}
+
+/* footer */
 
 .developed-by {
     color: var(--h2-p-color);
@@ -106,27 +149,4 @@ a span {
 
 footer {
     margin-top: 3.0rem;
-}
-
-button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
-
-.topIcons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1rem;
-}
-
-.darkLightMode {
-    display: flex;
-    gap: 1.5rem;
-}
-
-.flags {
-    display: flex;
-    gap: 1.2rem;
 }
