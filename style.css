@@ -129,7 +129,7 @@ a span {
     font-style: italic;
 }
 
-.fa-linkedin-in, .fa-github, .fa-envelope, .fa-whatsapp, .fa-telegram, .fa-discord, .fa-instagram {
+.fa-linkedin-in, .fa-github, .fa-envelope, .fa-whatsapp, .fa-telegram, .fa-discord, .fa-instagram, .fa-file-pdf {
     position: absolute;
     left: 2rem;
     font-size: 2rem;
@@ -137,9 +137,13 @@ a span {
 
 /* footer */
 
+footer p {
+    font-size: 1.2rem;
+}
+
 .developed-by {
     color: var(--h2-p-color);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     display: contents;
 }
 
