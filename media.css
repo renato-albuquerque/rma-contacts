@@ -1,0 +1,9 @@
+@media (min-width: 375px) {
+    body {
+        width: 37.5rem;
+    }
+    
+    .container {
+        width: 33.5rem; 
+    }
+}
