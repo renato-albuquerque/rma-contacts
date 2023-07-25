@@ -33,7 +33,6 @@ body {
     font-family: 'Roboto', sans-serif; 
     width: 32rem;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 .container {
@@ -44,7 +43,6 @@ body {
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto; */
-    border: 1px solid purple;
 }
 
 /* top icons */
@@ -111,7 +109,7 @@ li {
     margin-bottom: 1.8rem;
 }
 
-a {
+.linkButtonMain {
     background-color: var(--bga-color);   /* background-color:#F2EAE4; */
     color: var(--a-color);     /* color: #AD6E07; */ 
     padding: 1.5rem;
@@ -123,11 +121,11 @@ a {
     position: relative;
 }
 
-a:hover {
+.linkButtonMain:hover {
     filter: brightness(80%);
 }
 
-a span {
+.linkButtonMain span {
     font-size: 1.4rem;
     font-style: italic;
 }
@@ -164,19 +162,31 @@ footer {
 /* main */
 
 .sectionPortfolio {
-    padding: 0 3rem;
+    padding: 1.5rem 3rem;
+    /* border: 1px solid var(--bga-color); */
+    border-radius: 2rem;
+    box-shadow: var(--h1-color) 0px 5px 15px;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
 }
 
 .imageEachProjectPortfolio {
     width: 15rem;
     height: 15rem;
     border-radius: 1rem;
-    margin-top: 3rem;
+    /* margin-top: 1.5rem; */
+    margin-bottom: 1rem;
+}
+
+.wrapInfoProjectPortfolio-1 {
     margin-bottom: 0.5rem;
 }
 
-.wrapInfoProjectPortfolio {
+.wrapInfoProjectPortfolio-2 {
     margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 .titlePortfolio {
@@ -188,12 +198,17 @@ footer {
 .subtitlePortfolio {
     text-align: justify;
     color: var(--bga-color);
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .wrapTechIcons {
     display: flex;
     gap: 1rem;
+}
+
+.fa-link {
+    font-size: 1.8rem;
+    color: var(--bga-color);
 }
 
 .fa-html5, .fa-css3-alt, .fa-square-js {
