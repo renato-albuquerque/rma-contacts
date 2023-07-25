@@ -28,15 +28,12 @@
     --a-color: #F2EAE4;
 }
 
-button.iconTurnsColor svg path {            
-    fill: #00294F;
-}
-
 body {
     background-color: var(--bg-color);   /* background-color: #00294F; */
     font-family: 'Roboto', sans-serif; 
     width: 32rem;
     margin: 0 auto;
+    border: 1px solid red;
 }
 
 .container {
@@ -47,6 +44,7 @@ body {
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto; */
+    border: 1px solid purple;
 }
 
 /* top icons */
@@ -81,7 +79,7 @@ button {    /* for div flags. */
 
 /* header */
 
-img {
+.imageHeader {
     border-radius: 50%;
 }
 
@@ -158,4 +156,74 @@ footer p {
 
 footer {
     margin-top: 3.0rem;
+}
+
+
+/* portfolio page */
+
+/* main */
+
+.sectionPortfolio {
+    padding: 0 3rem;
+}
+
+.imageEachProjectPortfolio {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.wrapInfoProjectPortfolio {
+    margin-bottom: 0.5rem;
+}
+
+.titlePortfolio {
+    text-align: left;
+    color: var(--h1-color);
+    font-size: 1.3rem;
+}
+
+.subtitlePortfolio {
+    text-align: justify;
+    color: var(--bga-color);
+    font-size: 1.5rem;
+}
+
+.wrapTechIcons {
+    display: flex;
+    gap: 1rem;
+}
+
+.fa-html5, .fa-css3-alt, .fa-square-js {
+    font-size: 1.8rem;
+}
+
+.fa-html5 {
+    color: #E44D25;
+}
+
+.fa-css3-alt {
+    color: #254BDD;
+}
+
+.fa-square-js {
+    color: #EFD81D;
+}
+
+
+
+
+
+
+
+
+
+/* back button */
+
+.fa-arrow-rotate-left {
+    font-size: 2.5rem;
+    color: var(--h1-color);
+    position: fixed;
 }
