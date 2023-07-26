@@ -20,23 +20,24 @@
 
 /* check settings for other size screens. */
 
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
     body {
         width: 76.8rem;
     }
     
     .container {
-        width: 72.8rem; 
+        width: 33.5rem; 
     }
 
-    .mainPortfolio {
+    /* .mainPortfolio {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-    }
+    } */
 
-    .sectionPortfolio {
-        width: 33.5rem;
+    .fa-arrow-rotate-left {
+        right: 15rem;
+        bottom: 2rem;
     }
 }
 
@@ -46,16 +47,18 @@
     }
     
     .container {
-        width: 98.4rem; 
+        width: 33.5rem; 
     }
 
-    .mainPortfolio {
+    /* .mainPortfolio {
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
-    }
+    } */
 
-    .sectionPortfolio {
-        width: 33.5rem;
+    .fa-arrow-rotate-left {
+        right: 27rem;
+        bottom: 2rem;
     }
 }
 
@@ -65,16 +68,17 @@
     }
     
     .container {
-        width: 140.0rem; 
+        width: 33.5rem; 
     }
 
-    .mainPortfolio {
+    /* .mainPortfolio {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-    }
+    } */
 
-    .sectionPortfolio {
-        width: 33.5rem;
+    .fa-arrow-rotate-left {
+        right: 47rem;
+        bottom: 2rem;
     }
-} */
+}

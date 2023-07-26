@@ -159,6 +159,10 @@ footer {
 
 /* portfolio page */
 
+.container {
+    position: relative;
+}
+
 /* main */
 
 .sectionPortfolio {
@@ -246,23 +250,29 @@ footer {
     text-align: center; 
 }
 
+/* footer */
+
 .footerPortfolio {
     margin-top: 6rem;
 }
 
-
-
-
-
-
-
-
-
-
-/* back button */
+/* return button */
 
 .fa-arrow-rotate-left {
-    font-size: 2.5rem;
-    color: var(--h1-color);
     position: fixed;
+    font-size: 3rem;
+    color: var(--h1-color);
+    right: 2rem;
+    bottom: 2rem;
 }
+
+
+
+
+
+
+
+
+
+
+
