@@ -2,7 +2,7 @@
 
 Purpose of grouping all the user's contacts. Project developed in November 2022.
 
-🔗 [Click here to access](https://renato-albuquerque.github.io/rma-contacts/index.html)
+🔗 [Click here to access](https://rma-contacts.vercel.app/)
 
 ![screenshot](images/screencapture-rma-contacts-darkmode.png)
 ![screenshot](images/screencapture-rma-contacts-lightmode.png)

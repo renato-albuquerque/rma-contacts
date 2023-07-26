@@ -7,3 +7,13 @@
         width: 33.5rem; 
     }
 }
+
+@media (min-width: 425px) {
+    body {
+        width: 42.5rem;
+    }
+    
+    .container {
+        width: 33.5rem; 
+    }
+}
