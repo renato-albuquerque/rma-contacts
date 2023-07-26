@@ -235,6 +235,23 @@ footer {
     color: #558848;
 }
 
+.githubTitlePortfolio {
+    font-size: 1.6rem;
+}
+
+.fa-square-github {
+    font-size: 3.5rem;
+    color: var(--bga-color);
+    margin-top: 1rem;  
+    text-align: center; 
+}
+
+.footerPortfolio {
+    margin-top: 6rem;
+}
+
+
+
 
 
 
