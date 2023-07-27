@@ -183,26 +183,31 @@ footer {
 }
 
 .wrapInfoProjectPortfolio-1 {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .wrapInfoProjectPortfolio-2 {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
+.wrapGithubDeployPortfolio {
+    display: flex;
+    gap: 2rem;
+}
+
 .titlePortfolio {
     text-align: left;
     color: var(--h1-color);
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 .subtitlePortfolio {
     text-align: justify;
     color: var(--bga-color);
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 .wrapTechIcons {
@@ -216,7 +221,7 @@ footer {
 }
 
 .fa-html5, .fa-css3-alt, .fa-square-js, .fa-react, .fa-node-js {
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .fa-html5 {
@@ -240,11 +245,11 @@ footer {
 }
 
 .githubTitlePortfolio {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 
 .fa-square-github {
-    font-size: 3.5rem;
+    font-size: 5rem;
     color: var(--bga-color);
     margin-top: 1rem;  
     text-align: center; 
@@ -258,7 +263,15 @@ footer {
 
 /* return button */
 
-.fa-arrow-rotate-left {
+.fa-arrow-up-from-bracket {
+    position: fixed;
+    font-size: 3rem;
+    color: var(--bga-color);
+    right: 2rem;
+    bottom: 8rem;
+}
+
+.fa-rotate-left {
     position: fixed;
     font-size: 3rem;
     color: var(--h1-color);
