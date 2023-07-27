@@ -28,6 +28,10 @@
     --a-color: #F2EAE4;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--bg-color);   /* background-color: #00294F; */
     font-family: 'Roboto', sans-serif; 

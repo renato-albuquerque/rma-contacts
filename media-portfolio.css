@@ -29,13 +29,12 @@
         width: 33.5rem; 
     }
 
-    /* .mainPortfolio {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    } */
+    .fa-arrow-up-from-bracket {
+        right: 15rem;
+        bottom: 8rem;
+    }
 
-    .fa-arrow-rotate-left {
+    .fa-rotate-left {
         right: 15rem;
         bottom: 2rem;
     }
@@ -50,13 +49,12 @@
         width: 33.5rem; 
     }
 
-    /* .mainPortfolio {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    } */
+    .fa-arrow-up-from-bracket {
+        right: 27rem;
+        bottom: 8rem;
+    }
 
-    .fa-arrow-rotate-left {
+    .fa-rotate-left {
         right: 27rem;
         bottom: 2rem;
     }
@@ -71,13 +69,12 @@
         width: 33.5rem; 
     }
 
-    /* .mainPortfolio {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    } */
+    .fa-arrow-up-from-bracket {
+        right: 47rem;
+        bottom: 8rem;
+    }
 
-    .fa-arrow-rotate-left {
+    .fa-rotate-left {
         right: 47rem;
         bottom: 2rem;
     }
