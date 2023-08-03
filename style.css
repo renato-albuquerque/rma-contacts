@@ -193,23 +193,25 @@ footer {
 .wrapInfoProjectPortfolio-2 {
     margin-bottom: 1rem;
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 1rem;
 }
 
 .wrapGithubDeployPortfolio {
     display: flex;
+    justify-content: center;
     gap: 2rem;
 }
 
 .titlePortfolio {
-    text-align: left;
+    text-align: center;
     color: var(--h1-color);
     font-size: 1.4rem;
 }
 
 .subtitlePortfolio {
-    text-align: justify;
+    text-align: center;
     color: var(--bga-color);
     font-size: 1.5rem;
 }
