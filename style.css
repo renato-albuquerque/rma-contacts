@@ -174,8 +174,10 @@ footer {
     /* border: 1px solid var(--bga-color); */
     border-radius: 2rem;
     box-shadow: var(--h1-color) 0px 5px 15px;
-    margin-top: 3rem;
-    margin-bottom: 5rem;
+    
+    display: block;
+    margin: 3rem auto 5rem;
+    width: 90%;
 }
 
 .imageEachProjectPortfolio {
