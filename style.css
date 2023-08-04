@@ -43,10 +43,6 @@ body {
     width: 28rem;
     text-align: center;
     margin: 3.0rem auto;
-    /* margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto; */
 }
 
 /* top icons */
@@ -171,7 +167,6 @@ footer {
 
 .sectionPortfolio {
     padding: 1.5rem 3rem;
-    /* border: 1px solid var(--bga-color); */
     border-radius: 2rem;
     box-shadow: var(--h1-color) 0px 5px 15px;
     
@@ -184,7 +179,6 @@ footer {
     width: 15rem;
     height: 18rem;
     border-radius: 1rem;
-    /* margin-top: 1.5rem; */
     margin-bottom: 1rem;
 }
 
