@@ -17,3 +17,65 @@
         width: 33.5rem; 
     }
 }
+
+/* Check settings for other size screens. For portfolio page. */
+
+@media (min-width: 768px) {
+    body {
+        width: 76.8rem;
+    }
+    
+    .container {
+        width: 33.5rem; 
+    }
+
+    .fa-arrow-up-from-bracket {
+        right: 15rem;
+        bottom: 8rem;
+    }
+
+    .fa-rotate-left {
+        right: 15rem;
+        bottom: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        width: 102.4rem;
+    }
+    
+    .container {
+        width: 33.5rem; 
+    }
+
+    .fa-arrow-up-from-bracket {
+        right: 27rem;
+        bottom: 8rem;
+    }
+
+    .fa-rotate-left {
+        right: 27rem;
+        bottom: 2rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    body {
+        width: 144.0rem;
+    }
+    
+    .container {
+        width: 33.5rem; 
+    }
+
+    .fa-arrow-up-from-bracket {
+        right: 47rem;
+        bottom: 8rem;
+    }
+
+    .fa-rotate-left {
+        right: 47rem;
+        bottom: 2rem;
+    }
+}
