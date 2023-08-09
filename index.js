@@ -21,7 +21,7 @@ function share(){
 	if (navigator.share !== undefined) {
 		navigator.share({
 			title: 'Digital Business Card - Renato Albuquerque',
-			text: 'Front-End Web Developer',
+			text: 'Front-End Developer',
 			url: 'https://rma-contacts.vercel.app/'
 		})
 		.then(() => console.log('Successful share'))
