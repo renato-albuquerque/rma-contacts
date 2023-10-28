@@ -1,6 +1,6 @@
 # Digital Business Card, Renato Albuquerque, Software Developer
 
-Solution that includes all user links, as well as file downloads (Example: resume). Project start: November 2022. Project update: July 2023.
+Solution that includes all user links, as well as file downloads (Example: resume). Project start: November 2022.
 
 "Mobile first" project for 320px, 375px and 425px screens, developed in HTML, CSS and JavaScript. Some relevant features: "dark/light mode" and "share button". Other relevant aspects: Added "name meta tags" (author, description, keywords) to optimize the page content with search engines.
 
