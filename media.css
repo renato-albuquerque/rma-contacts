@@ -21,10 +21,20 @@
 /* Check settings for other size screens. For portfolio page. */
 
 @media (min-width: 768px) {
+    
+    /* setup to main page, index.html */
+    
+    .topIcons, .linkButtonMain {
+        width: 33.5rem;
+        margin: 0 auto;
+    }
+    
+    /* setup to portfolio page */
+
     body {
         width: 76.8rem;
     }
-    
+
     .container {
         width: 70.0rem; 
     }
