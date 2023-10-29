@@ -1,6 +1,6 @@
 # Digital Business Card, Renato Albuquerque, Software Developer
 
-Solution that includes all user links, as well as file downloads (Example: resume). Project start: November 2022.
+Solution that includes all user links, contacts, portfolio page, as well as files download (Example: resume). Project start: November 2022.
 
 "Mobile first" project for 320px, 375px and 425px screens, developed in HTML, CSS and JavaScript. Some relevant features: "dark/light mode" and "share button". Other relevant aspects: Added "name meta tags" (author, description, keywords) to optimize the page content with search engines.
 
@@ -27,8 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
+#### Main Page
 ![screenshot](images/screencapture-rma-contacts-darkmode.png)
 ![screenshot](images/screencapture-rma-contacts-lightmode.png)
+
+#### Portfolio Page
+![screenshot](images/screencapture-portfolio-darkmode.png)
+![screenshot](images/screencapture-portfolio-lightmode.png)
 
 ### Links
 
