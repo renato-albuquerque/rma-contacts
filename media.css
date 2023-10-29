@@ -79,16 +79,20 @@
     }
     
     .container {
-        width: 33.5rem; 
+        width: 130rem; 
+    }
+
+    .sectionPortfolio {
+        width: 22%;
     }
 
     .fa-arrow-up-from-bracket {
-        right: 47rem;
+        right: 2rem;
         bottom: 8rem;
     }
 
     .fa-rotate-left {
-        right: 47rem;
+        right: 2rem;
         bottom: 2rem;
     }
 }
