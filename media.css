@@ -26,16 +26,25 @@
     }
     
     .container {
-        width: 33.5rem; 
+        width: 70.0rem; 
+    }
+
+    .mainPortfolio {
+        display: flex;
+        flex-wrap: wrap;
+    }  
+    
+    .sectionPortfolio {
+        width: 40%;
     }
 
     .fa-arrow-up-from-bracket {
-        right: 15rem;
+        right: 2rem;
         bottom: 8rem;
     }
 
     .fa-rotate-left {
-        right: 15rem;
+        right: 2rem;
         bottom: 2rem;
     }
 }
