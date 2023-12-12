@@ -229,7 +229,7 @@ footer {
     color: var(--bga-color);
 }
 
-.fa-html5, .fa-css3-alt, .fa-square-js, .fa-react, .fa-node-js {
+.fa-html5, .fa-css3-alt, .fa-square-js, .fa-react, .fa-node-js, .fa-bootstrap {
     font-size: 2rem;
 }
 
@@ -251,6 +251,10 @@ footer {
 
 .fa-node-js {
     color: #558848;
+}
+
+.fa-bootstrap {
+    color: #7709F7;
 }
 
 .githubTitlePortfolio {
